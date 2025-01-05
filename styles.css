@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Hero Section */
+.hero {
+    background: url('gym-banner.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cta-button {
+    background: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Categories Section */
+.categories {
+    padding: 20px;
+    text-align: center;
+}
+
+.category {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.category img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Featured Products */
+.featured {
+    padding: 20px;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100px;
+    height: auto;
+}
+
+button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Contact Section */
+.contact {
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea, form button {
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
